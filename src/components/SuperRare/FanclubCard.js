@@ -4,15 +4,15 @@ import Fanclub from '../../images/fanclub.png';
 
 const FanclubCard = ({head}) => {
   return (
-    <div className="h-96 bg-zinc-800 rounded-2xl mt-8">
-       <div className="bg-fixed">
+    <div className="cursor-pointer bg-zinc-800 rounded-2xl mt-8">
+       <div className="bg-fixed h-auto">
          <img className="rounded-t-2xl object-cover" src={Fanclub} alt="fanclub-img" />
        </div>
-       <div className="h-2/5 mx-4">
-         <h2 className="text-white text-2xl">{head}</h2>
-         <p className="text-white font-light">Entry into premium discord</p>
-         <p className="text-white font-light">(Unlock with 1 early bird coin)</p>
-         <div className="flex mt-2">
+       <div className="mx-4 h-40">
+         <h2 className="text-white mt-4 text-2xl">{head}</h2>
+         <p className="text-white mt-2 text-sm font-light">Entry into premium discord</p>
+         <p className="text-white text-sm font-light">(Unlock with 1 early bird coin)</p>
+         <div className="flex mt-4">
            <div className="w-12 h-12 cursor-pointer rounded-full bg-black flex justify-center items-center">
               <img src={Lock} alt="lock" />
            </div>

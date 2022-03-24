@@ -1,12 +1,13 @@
 import React from 'react'
+import TabBar from './TabBar'
 import Transaction from './Transaction'
 import YourWallet from './YourWallet'
 
 const WalletSection = () => {
   return (
-    <div className="mt-40">
-      <YourWallet />
-      <Transaction />
+    <div className="mx-36 mt-40">
+      <h1 className="text-6xl text-white font-light">Your Wallet</h1>
+      <TabBar /> 
     </div>
   )
 }

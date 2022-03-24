@@ -5,7 +5,7 @@ const SuperRareFanclub = () => {
   return (
     <div className="mt-44 mx-36">
       <h1 className="text-white text-4xl text-center font-normal">SuperRare Fanclub Benefits</h1>
-      <div className="grid grid-rows-1 w-full">
+      <div className="grid grid-rows-1 w-full mt-12">
          <div className="grid grid-cols-1 gap-x-16 justify-between lg:grid-cols-3">
           <FanclubCard head="Discord" />
           <FanclubCard head="Special Avatar" />

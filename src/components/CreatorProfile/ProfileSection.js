@@ -20,7 +20,7 @@ const ProfileSection = () => {
         <div className="w-44 h-44 rounded-xl -mt-12 bg-gray-300">
           <img className="rounded-xl" src={ProfileImg} alt="profile-pic" />
         </div>
-        <div className="w-60 h-12 mt-8 rounded-xl flex items-center justify-evenly bg-gray-700">
+        <div className="w-60 h-12 mt-8 rounded-xl flex items-center justify-evenly bg-zinc-700">
            <img className="cursor-pointer" src={Youtube} alt="youtube" />
            <img className="cursor-pointer" src={Instagram} alt="youtube" />
            <img className="cursor-pointer" src={FaceBook} alt="youtube" />
@@ -29,8 +29,8 @@ const ProfileSection = () => {
       </div>
       <div className="mx-36 my-8">
         <h1 className="text-5xl text-white">Ujjwal Chaurasia</h1>
-        <p className="text-white text-base mt-8">I am releasing my own fan coin - $GAMERZ coins. Releasing first 200/500 tokens available @ early bird price - <span className="text-orange-700">See all the benefits</span></p>
-        <div className="flex items-center justify-evenly cursor-pointer mt-4 w-80 h-16 bg-black rounded-xl border-2 border-purple-700">
+        <p className="text-white text-base mt-12">I am releasing my own fan coin - $GAMERZ coins. Releasing first 200/500 tokens available @ early bird price - <span className="text-orange-500">See all the benefits</span></p>
+        <div className="flex items-center justify-evenly cursor-pointer mt-8 w-80 h-[3rem] bg-black rounded-xl border-2 border-purple-700">
            <img className="ml-2" src={HandCoin} alt="hand-coin" />
            <h3 className="text-white text-lg -ml-2">Only 500 Tokens available</h3>
         </div>

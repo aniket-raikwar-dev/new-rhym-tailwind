@@ -1,15 +1,18 @@
 import React from 'react'
-import WalletCard from './WalletCard'
+import IndividualCard from '../CreatorProfile/IndividualCard'
+import Transaction from './Transaction'
 
 const YourWallet = () => {
   return (
-    <div className="mx-36">
-      <h1 className="text-6xl text-white font-light">Your Wallet</h1>
+    <div className="">
       <p className="mt-12 text-white text-2xl">Purchases</p>
-      <div className="flex">
-        <WalletCard head="Rare" num="3" />
-        <WalletCard head="Endgame" num="1" />
+      <div className="grid grid-rows-1 w-full">
+         <div className="grid grid-cols-1 gap-x-16 justify-between lg:grid-cols-3">
+          <IndividualCard head="Rare" num1="248" num2="400" />
+          <IndividualCard head="SuperRare" num1="15" num2="20" />
+         </div>
       </div>
+      <Transaction />
     </div>
   )
 }

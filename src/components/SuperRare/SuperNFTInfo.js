@@ -31,14 +31,14 @@ const SuperNFTInfo = () => {
   }
 
   return (
-    <div>
-      <h1 className="text-4xl text-white">SuperRare NFT</h1>
+    <div className="w-[30rem]">
+      <h1 className="text-5xl text-white">SuperRare NFT</h1>
       <p className="text-base text-gray-300 mt-8">Creator</p>
-      <h3 className="text-white font-semibold text-lg">Ujjwal Chaurasia</h3>
-      <div className="w-96 h-px bg-gray-600 mt-8"></div>
+      <h3 className="text-white font-semibold text-xl">Ujjwal Chaurasia</h3>
+      <div className="w-full h-px bg-gray-600 mt-8"></div>
       <p className="mt-8 text-base text-gray-300">About the NFT</p>
-      <p className="text-white text-lg mt-4 w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et vitae ultrices scelerisque condimemtum viverra urna magna. Sed hac quis.</p>
-      <h3 className="mt-8 text-lg text-white">Become an exclusive Rare hodler</h3>
+      <p className="text-white text-xl mt-4 w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et vitae ultrices scelerisque condimemtum viverra urna magna. Sed hac quis.</p>
+      <h3 className="mt-8 text-xl text-white">Become an exclusive Rare hodler</h3>
       <div className="flex mt-8">
         <div>
           <p className="text-base text-gray-300">Available NFT Editions:</p>

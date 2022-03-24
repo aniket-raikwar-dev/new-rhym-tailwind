@@ -1,6 +1,7 @@
 import React from 'react'
 import BackArrow from '../../images/back-arrow.png';
 import SuperNFTInfo from './SuperNFTInfo';
+import SuperNft from '../../images/bigWhatap.png';
 
 const SuperRareNft = () => {
   return (
@@ -11,7 +12,9 @@ const SuperRareNft = () => {
            <h3 className="text-white">Back</h3>
         </div>
         <div className="flex justify-start mt-12">
-           <div className="w-1/2 h-auto bg-black border-2 border-gray-600 rounded-2xl"></div>
+           <div className="w-1/2 bg-black border-2 border-gray-600 rounded-2xl">
+             <img className="rounded-2xl" src={SuperNft} alt="nft" />
+           </div>
            <div className="ml-20">
              <SuperNFTInfo />
            </div>
