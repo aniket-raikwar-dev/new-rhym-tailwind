@@ -14,7 +14,6 @@ const GamerzNFT = () => {
           <IndividualCard head="EndGame" num1="10" num2="10" />
          </div>
       </div>
-
     </div>
   )
 }

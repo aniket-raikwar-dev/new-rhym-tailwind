@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Discord from '../../images/discord.png';
 import FanClubImg from '../../images/fanclub-circle.png';
+import EmptyFanclub from './EmptyFanclub';
 
 const GamerzFanclub = () => {
   const item = [];
@@ -51,7 +52,8 @@ const GamerzFanclub = () => {
           }
            <div onClick={() => showMore()} className="w-40 h-12 mb-16 mt-12 flex justify-evenly items-center cursor-pointer rounded-3xl border-2 text-white">{seeMore ? "see more" : "see less"}</div>
        </div>
-       <div className="h-40"></div>
+       <div className="h-20"></div>
+       <EmptyFanclub />
     </div>
   )
 }
