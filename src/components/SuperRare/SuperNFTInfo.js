@@ -31,7 +31,7 @@ const SuperNFTInfo = () => {
   }
 
   return (
-    <div className="w-[30rem]">
+    <div className="mt-12 lg:mt-0 lg:w-[30rem]">
       <h1 className="text-5xl text-white">SuperRare NFT</h1>
       <p className="text-base text-gray-300 mt-8">Creator</p>
       <h3 className="text-white font-semibold text-xl">Ujjwal Chaurasia</h3>

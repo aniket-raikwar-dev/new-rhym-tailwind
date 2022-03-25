@@ -4,7 +4,7 @@ import YourWallet from './YourWallet';
 
 const TabBar = () => {
 
-  const [selected, setSelected] = useState('your');
+  const [selected, setSelected] = useState('fan');
   const chooseOrange = `inline-block cursor-pointer p-4 text-orange-600 rounded-t-lg border-b-2 border-orange-600 active dark:text-orange-500 dark:border-orange-500`;
   const chooseGray = `inline-block cursor-pointer p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300`;
 
